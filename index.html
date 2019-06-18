@@ -127,18 +127,31 @@
           <div class="col-sm-9">
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade active show" id="v-pills-cortos" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                  <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam 
-                    sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit 
-                    est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor 
-                    in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum 
-                    enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+                    <div class="col-12"> 
+                        <h4>
+                          Alondra
+                        </h4>
+                        <p>
+                          Norberto es un chico callado y Alondra una chica muy extrovertida, Norberto sigue a Alondra 
+                          por toda la ciudad pero él no interactua con ella, algo parece estar mal y probablemente 
+                          tiene que ver con el silencio de Norberto y la fecha.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/alondra/20181102_173249_HDR.jpg" class="rounded float-left col-5 img1" data-toggle="modal" data-target="#exampleModal" alt="..." >
+                        <img src="images/alondra/20181102_191645.jpg" class="rounded float-right col-5" data-toggle="modal" data-target="#ninio" alt="...">
+                        <img src="images/alondra/Screenshot_2018-11-03-19-44-03.png" class="rounded mx-auto d-block col-5" data-toggle="modal" data-target="#turibus" alt="...">
+                    </div>
+                    
                 </div>
                 <div class="tab-pane fade" id="v-pills-links" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                  <p>Culpa dolor voluptate do laboris laboris irure reprehenderit id incididunt duis pariatur 
-                    mollit aute magna pariatur consectetur. Eu veniam duis non ut dolor deserunt commodo et minim 
-                    in quis laboris ipsum velit id veniam. Quis ut consectetur adipisicing officia excepteur non sit. 
-                    Ut et elit aliquip labore Lorem enim eu. Ullamco mollit occaecat dolore ipsum id officia mollit qui 
-                    esse anim eiusmod do sint minim consectetur qui.</p>
+                    <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam 
+                        sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit 
+                        est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor 
+                        in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum 
+                        enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+    
+                  
                 </div>
                 
               </div>
@@ -173,6 +186,55 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
+            </div>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">             
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Catrin</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/alondra/20181102_173249_HDR.jpg" class="col-12 img1"  alt="..." >
+                    </div>       
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="ninio" tabindex="-1" role="dialog" aria-labelledby="niniolLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">             
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ninioLabel">Prendiendo Vela</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/alondra/20181102_191645.jpg" class="col-12 img1"  alt="..." >
+                    </div>       
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="turibus" tabindex="-1" role="dialog" aria-labelledby="turibusModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">             
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="turibusModalLabel">Turibus</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/alondra/Screenshot_2018-11-03-19-44-03.png" class="col-12 img1"  alt="..." >
+                    </div>       
+                  </div>
+                </div>
             </div>
 
         <script>
@@ -211,6 +273,10 @@
             $(".who").removeClass("active");
             $(".works").removeClass("active");
           });
+
+          /*$(".img1").click(function(){
+            alert("hola");
+          });*/
 
           /*$("#boton03").click(function(){
             $("#parrafo").removeClass("rojo");
